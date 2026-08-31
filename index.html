@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhinesh K | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <header>
+    <div class="container nav-bar">
+      <a href="#about" class="brand">&lt;Dhinesh.K /&gt;</a>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-btn-link">About</a></li>
+        <li><a href="#skills" class="nav-btn-link">Skills</a></li>
+        <li><a href="#experience" class="nav-btn-link">Experience</a></li>
+        <li><a href="#projects" class="nav-btn-link">Projects</a></li>
+        <li><a href="#education" class="nav-btn-link">Education</a></li>
+        <li><a href="#certifications" class="nav-btn-link">Certifications</a></li>
+        <li><a href="#terminal" class="nav-btn-link">Terminal</a></li>
+        <li><a href="#contact" class="nav-btn-link">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <a href="#contact" class="btn-resume-nav">📄 Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="about" class="section-block" style="padding-top: 30px;">
+      <div class="hero-split">
+        <div class="hero-left">
+          <div class="open-to-work-badge">
+            <span class="green-status-dot"></span>
+            <span>Open to Work</span>
+          </div>
+          
+          <h1 class="hero-name">Hi, I'm <span class="glow-text">Dhinesh K</span></h1>
+          
+          <h2 class="hero-role">
+            <span id="typed-text"></span><span class="cursor">|</span>
+          </h2>
+          
+          <p class="hero-desc">
+            ECE graduate (2026) specializing in Java Full Stack Development. Building scalable, database-driven applications with robust CRUD architectures, Spring Boot microservices, and interactive 3D UI systems.
+          </p>
+
+          <div class="hero-buttons-row">
+            <a href="#contact" class="btn-purple-glow">
+              <span>📥</span> View Resume
+            </a>
+            <a href="https://github.com/Dhinesh-1812" target="_blank" class="btn-dark-icon">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="btn-dark-icon">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="photo-glow-wrapper">
+            <div class="floating-badge badge-top-left">☕</div>
+            <div class="floating-badge badge-top-right">🍃</div>
+            <div class="floating-badge badge-bottom-left">⚛️</div>
+            <div class="floating-badge badge-bottom-right">🗄️</div>
+            
+            <div class="photo-frame-circle">
+              <img src="photo.jpg" alt="Dhinesh K" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'avatar-fallback\'>D</div>';" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-grid" style="margin-top: 40px;">
+        <div class="about-card">
+          <div class="icon-avatar">👤</div>
+          <h3>Who I Am</h3>
+          <p>
+            An ECE graduate (2026) and proactive Java Full Stack Developer with a strong foundation in object-oriented programming, data structures, and relational database systems.
+          </p>
+          <p>
+            Experienced in building modular backend services with Spring Boot and designing clean, responsive web user interfaces.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="icon-avatar">💻</div>
+          <h3>What I Do</h3>
+          <p>
+            <strong>Backend & APIs:</strong> Architect RESTful web services and data pipelines using Core Java, Spring Boot, JDBC, and Hibernate.
+          </p>
+          <p>
+            <strong>Database Engineering:</strong> Design normalized MySQL schemas, optimize complex queries, and ensure efficient CRUD operations.
+          </p>
+          <p>
+            <strong>Responsive UI:</strong> Build intuitive, cross-browser compatible frontend interfaces using JavaScript, HTML5, CSS3, and Bootstrap.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="icon-avatar">🎯</div>
+          <h3>My Goal</h3>
+          <p>
+            To secure an entry-level <strong>Software Development Engineer (SDE) / Java Developer</strong> role in an innovation-driven engineering team.
+          </p>
+          <p>
+            I aim to contribute toward building high-performance microservices, clean enterprise architectures, and robust web applications while continuously mastering cloud and distributed systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>My <span class="highlight-text">Skills</span></h2>
+      </div>
+
+      <div class="skills-card-grid">
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">☕</span>
+            <h3>Programming</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Core Java</span>
+            <span class="skill-pill">OOP</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">🌐</span>
+            <h3>Web Technologies</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Bootstrap</span>
+            <span class="skill-pill">jQuery</span>
+          </div>
+        </div>
+
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">🖧</span>
+            <h3>Backend</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Advanced Java</span>
+            <span class="skill-pill">Spring Boot</span>
+            <span class="skill-pill">JDBC</span>
+            <span class="skill-pill">REST API</span>
+            <span class="skill-pill">CRUD</span>
+          </div>
+        </div>
+
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">🗄️</span>
+            <h3>Database</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Oracle</span>
+            <span class="skill-pill">SQL Queries</span>
+            <span class="skill-pill">Joins</span>
+            <span class="skill-pill">Subqueries</span>
+          </div>
+        </div>
+
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">🛠️</span>
+            <h3>Tools</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">IntelliJ IDEA</span>
+            <span class="skill-pill">Eclipse</span>
+            <span class="skill-pill">VS Code</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">Postman</span>
+          </div>
+        </div>
+
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">👥</span>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Communication</span>
+            <span class="skill-pill">Team Work</span>
+            <span class="skill-pill">Problem Solving</span>
+            <span class="skill-pill">Analytical Thinking</span>
+            <span class="skill-pill">Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <span>&lt;/&gt;</span>
+          </div>
+          <div class="timeline-card">
+            <span class="date-badge">May 2026 – Present</span>
+            <h3 class="role-title">Java Full Stack Development Intern</h3>
+            <p class="company-name">Besant Technologies • Bangalore, India</p>
+
+            <ul class="bullet-list">
+              <li>Developed and deployed dynamic web applications using Core Java, JDBC, and Spring Boot for efficient backend processing.</li>
+              <li>Engineered relational database schemas and optimized MySQL queries for CRUD operations, improving data retrieval efficiency.</li>
+              <li>Designed 8+ responsive, cross-browser compatible user interfaces using HTML5, CSS3, JavaScript, and Bootstrap.</li>
+              <li>Utilized Git and GitHub for team version control, code reviews, and structured branch management.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <span>⚙️</span>
+          </div>
+          <div class="timeline-card">
+            <span class="date-badge">Nov 2024 – Dec 2024</span>
+            <h3 class="role-title">Intern</h3>
+            <p class="company-name">Emglitz Technologies • Salem, India</p>
+
+            <ul class="bullet-list">
+              <li>Programmed microcontrollers using C to build and test functional embedded system modules.</li>
+              <li>Analyzed electronic circuit diagrams and performed hardware debugging to optimize component performance.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>Featured <span class="highlight-text">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="showcase-card">
+          <div class="project-icon-box icon-purple">💼</div>
+          <span class="project-number">PROJECT 01</span>
+          <h3>SkillBridge – Skill-Based Job Matching Platform</h3>
+          <p class="project-desc">A full-stack recruitment platform enabling candidates to filter and apply for jobs based on validated skill sets.</p>
+          
+          <ul class="project-features">
+            <li><span>✓</span> Dynamic skill compatibility rating and interactive job matching.</li>
+            <li><span>✓</span> User authentication & role-based profile management.</li>
+            <li><span>✓</span> Real-time job search, filtering, and live application tracking.</li>
+          </ul>
+
+          <div class="project-tags">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+          </div>
+
+          <a href="https://dhinesh-1812.github.io/Skillbridge-Project/" target="_blank" class="btn-github">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            View Live Project
+          </a>
+        </div>
+
+        <div class="showcase-card">
+          <div class="project-icon-box icon-blue">🏛️</div>
+          <span class="project-number">PROJECT 02</span>
+          <h3>E-Governance Grievance System (CiviSolve)</h3>
+          <p class="project-desc">A modular e-governance console system architected using Core Java, OOP, and dynamic Collections.</p>
+          
+          <ul class="project-features">
+            <li><span>✓</span> Citizen registration and unique tracking docket generation.</li>
+            <li><span>✓</span> Grievance filing, department routing, and status tracking.</li>
+            <li><span>✓</span> In-memory record management utilizing ArrayList collections.</li>
+          </ul>
+
+          <div class="project-tags">
+            <span>Java</span>
+            <span>OOP</span>
+            <span>ArrayList</span>
+            <span>IntelliJ IDEA</span>
+          </div>
+
+          <a href="https://github.com/Dhinesh-1812/CiviSolve-Project" target="_blank" class="btn-github">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>Education</h2>
+      </div>
+
+      <div class="education-card">
+        <div class="edu-icon-avatar">🎓</div>
+        <div class="edu-content">
+          <span class="date-badge">Sep 2022 – April 2026</span>
+          <h3 class="edu-degree">B.E. Electronics and Communication Engineering</h3>
+          <p class="edu-college">Sengunthar Engineering College (Autonomous)</p>
+          <p class="edu-location">Tiruchengode, Tamil Nadu</p>
+          <p class="edu-cgpa">CGPA: 7.0</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="skills-card-grid">
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">📜</span>
+            <h3>Java Full Stack Development</h3>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6;">
+            Comprehensive development training covering Core Java, JDBC, Hibernate, Spring Boot, RESTful APIs, and MySQL database integration.
+          </p>
+        </div>
+
+        <div class="skill-category-box">
+          <div class="category-header">
+            <span class="cat-icon">⚙️</span>
+            <h3>Embedded Systems & IoT</h3>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.6;">
+            Hands-on training in C programming for microcontrollers, electronic circuit debugging, and hardware component testing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="terminal" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>Interactive <span class="highlight-text">Terminal</span></h2>
+      </div>
+
+      <div class="terminal-container">
+        <div class="terminal-header">
+          <span class="term-dot red"></span>
+          <span class="term-dot yellow"></span>
+          <span class="term-dot green"></span>
+          <span style="font-size:0.75rem; color:var(--text-muted); margin-left:8px;">dhinesh@system:~</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <p class="terminal-output">Dhinesh's terminal online. Type <span class="term-highlight">'help'</span> for navigation commands.</p>
+        </div>
+        <div class="terminal-input-line">
+          <span style="color:var(--violet-bright); font-weight: bold;">$&nbsp;</span>
+          <input type="text" id="terminal-input" placeholder="skills, projects, education, contact..." />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-block">
+      <div class="section-title-wrap text-center">
+        <h2>Contact <span class="highlight-text">Me</span></h2>
+      </div>
+
+      <div class="about-card" style="text-align: center; max-width: 600px; margin: 0 auto;">
+        <h3>Dhinesh K</h3>
+        <p style="color:var(--text-muted); margin: 8px 0 20px;">📍 Erode, Tamil Nadu, India</p>
+
+        <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+          <a href="mailto:dhineshkarunanithi1812@gmail.com" class="btn-purple-glow" style="text-decoration:none;">📧 dhineshkarunanithi1812@gmail.com</a>
+          <a href="tel:+916385407859" class="btn-dark-icon" style="text-decoration:none;">📞 +91 6385407859</a>
+          <a href="https://github.com/Dhinesh-1812" target="_blank" class="btn-dark-icon" style="text-decoration:none;">GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <button id="scrollToTopBtn" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
